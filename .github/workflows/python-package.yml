@@ -41,7 +41,7 @@ jobs:
         pwd
     - name: 위치2
       run: |
-        ll
+        ls -a
     - name: Test with pytest
       run: |
         python3 hello.py
